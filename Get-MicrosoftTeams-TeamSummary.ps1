@@ -48,4 +48,4 @@ $teams | ForEach-Object {
     }
 
     # Output collection
-    $OutputCollection
+    $OutputCollection  | Export-csv .\"export.csv"
